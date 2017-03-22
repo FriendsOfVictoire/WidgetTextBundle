@@ -1,5 +1,5 @@
 {
-    "name": "victoire/text-widget",
+    "name": "friendsofvictoire/text-widget",
     "type": "symfony-bundle",
     "description": "Victoire Text widget",
     "keywords": [
