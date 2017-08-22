@@ -4,6 +4,6 @@
     {% if excerpt != '' %}
         <p>{{ content|striptags|truncate(excerpt) }}</p>
     {% else %}
-        <p>{{ content|nl2br|raw }}</p>
+        <p>{{ content|raw|nl2br }}</p>
     {% endif %}
 {% endblock content %}
